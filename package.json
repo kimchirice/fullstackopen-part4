@@ -4,6 +4,8 @@
   "description": "a blog list application that allow users to save information about interesting blogs they have stumbled across on the internet",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "jest"
   },
   "repository": {
@@ -14,7 +16,7 @@
     "blog"
   ],
   "author": "Max Du",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kimchirice/fullstackopen-part4/issues"
   },
@@ -25,6 +27,7 @@
     "mongoose": "^5.11.19"
   },
   "devDependencies": {
+    "eslint": "^7.21.0",
     "nodemon": "^2.0.7"
   }
 }
