@@ -1,0 +1,30 @@
+{
+  "name": "blog_list_app",
+  "version": "1.0.0",
+  "description": "a blog list application that allow users to save information about interesting blogs they have stumbled across on the internet",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimchirice/fullstackopen-part4.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Max Du",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimchirice/fullstackopen-part4/issues"
+  },
+  "homepage": "https://github.com/kimchirice/fullstackopen-part4#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
